@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+.layer{
+    background-image: url("../img/avatar-1-CwUcGkzI.jpg");
+    width: 100px;
+    height: 100px;
+    position: fixed;
+
+}

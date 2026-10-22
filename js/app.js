@@ -300,7 +300,7 @@ descraption.addEventListener("change", HandleValidDesc);
 function HandleValidDesc() {
   var AddressRagex = /^[A-Za-z0-9\s.,!?()-]{10,500}$/;
   if (AddressRagex.test(descraption.value) == true) {
-    alertDescraption.classList.remove("d-none");
+    alertDescraption.classList.add("d-none");
     descraption.classList.remove("is-invalid");
     descraption.classList.add("is-valid");
     return true;
